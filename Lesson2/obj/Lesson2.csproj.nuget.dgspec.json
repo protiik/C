@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BVD\\Documents\\4443\\C#\\Lesson2\\Lesson2.csproj": {}
+    "C:\\Users\\BVD\\Documents\\4443\\C#\\C\\Lesson2\\Lesson2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BVD\\Documents\\4443\\C#\\Lesson2\\Lesson2.csproj": {
+    "C:\\Users\\BVD\\Documents\\4443\\C#\\C\\Lesson2\\Lesson2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BVD\\Documents\\4443\\C#\\Lesson2\\Lesson2.csproj",
+        "projectUniqueName": "C:\\Users\\BVD\\Documents\\4443\\C#\\C\\Lesson2\\Lesson2.csproj",
         "projectName": "Lesson2",
-        "projectPath": "C:\\Users\\BVD\\Documents\\4443\\C#\\Lesson2\\Lesson2.csproj",
+        "projectPath": "C:\\Users\\BVD\\Documents\\4443\\C#\\C\\Lesson2\\Lesson2.csproj",
         "packagesPath": "C:\\Users\\BVD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BVD\\Documents\\4443\\C#\\Lesson2\\obj\\",
+        "outputPath": "C:\\Users\\BVD\\Documents\\4443\\C#\\C\\Lesson2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BVD\\AppData\\Roaming\\NuGet\\NuGet.Config"
