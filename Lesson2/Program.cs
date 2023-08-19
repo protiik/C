@@ -26,18 +26,20 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-// Console.WriteLine("Введите число 1 :");
-// string strNum1 = Console.ReadLine();
-// int num1 = int.Parse(strNum1);
+Console.WriteLine("Введите число :");
+string strNum1 = Console.ReadLine();
+int num1 = int.Parse(strNum1);
 
-// int i = 0;
-
-// while i < 3
-// {
-//     if 
-//     i+=1
-// }
-
+int result = 0;
+    if (num1 >= 100){
+            while (num1 > 999) {
+                num1 = num1 / 10;
+            }
+            result = num1 % 10;
+            Console.WriteLine(result);
+        }else{
+            Console.WriteLine("Нет третьей цифры");
+        }
 
 
 
@@ -46,15 +48,15 @@
 // 7 -> да
 // 1 -> нет
 
-Console.WriteLine("Введите число :");
-string strNum1 = Console.ReadLine();
-int num1 = int.Parse(strNum1);
+// Console.WriteLine("Введите число :");
+// string strNum1 = Console.ReadLine();
+// int num1 = int.Parse(strNum1);
 
-if ((num1 == 1) || (num1 == 2) || (num1 == 3)  || (num1 == 4) || (num1 == 5)) {
-    Console.WriteLine("Нет");
-}else if ((num1 == 6) || (num1 == 7)) {
-    Console.WriteLine("Да");
-}else{
-    Console.WriteLine("Число не подходит под день недели");
-}
+// if ((num1 == 1) || (num1 == 2) || (num1 == 3)  || (num1 == 4) || (num1 == 5)) {
+//     Console.WriteLine("Нет");
+// }else if ((num1 == 6) || (num1 == 7)) {
+//     Console.WriteLine("Да");
+// }else{
+//     Console.WriteLine("Число не подходит под день недели");
+// }
 
