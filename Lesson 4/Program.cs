@@ -45,3 +45,39 @@
 // int number = FillNumber(" ");
 
 // Console.WriteLine($"Ответ : {GetSumNumbers(number)}");
+
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+
+
+int size = 8;
+
+int FillNumber(string message){
+    Console.WriteLine($"Введите число {message}:");
+    int num = int.Parse(Console.ReadLine());
+    return num;
+}
+
+int [] GenerateMassive(int length, int min, int max){
+    int[] array = new int[length];
+    Random random = new Random();
+    for (int i = 0; i < length; i++){
+        array[i] = random.Next (min, max +1);
+    }
+    return array;
+}
+
+void PrintArray(int[] array){
+    for (int i = 0; i < array.Length; i++){
+        Console.Write($"{array[i]} ");
+    }
+}
+
+
+int min = FillNumber("минимальное");
+int max = FillNumber("максимальное");
+
+int [] massive = GenerateMassive(size, min, max);
+
+PrintArray(massive);
